@@ -1,0 +1,52 @@
+.capslok {
+  margin: 10px 10px;
+  display: flex;
+  align-content: row;
+  width: 90px;
+  border: 2px solid #202C39;
+  box-shadow: inset -2px -2px 10px  #F15152;
+  border-radius: 18px 5px 18px 5px;
+  background-color: #D7263D;
+  box-shadow: .2px .2px 2px .5px  #A24936;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+  font-weight: 600;
+}
+
+.capslok:hover {
+  box-shadow: none;
+}
+
+.capslok div{
+  padding: 5px 0 5px 0;
+}
+
+.c {
+  margin-left: 10px;
+}
+
+@media(max-width: 1000px) {
+  .capslok {
+    width: 40px;
+  }
+  .apslo{
+    display: none;
+  }
+  .c {
+    margin-left: 8px;
+  }
+  .k {
+    text-transform: uppercase;
+  }
+}
+@media(max-width: 650px) {
+  .capslok {
+    width: 30px;
+  }
+  .k{
+    display: none;
+  }
+  .c {
+    margin-left: 9px;
+  }
+}
